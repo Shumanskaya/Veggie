@@ -49,9 +49,11 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 ul {
     padding: 0;
 }
+
 .navbar-default {
     border: none;
     background: transparent;
@@ -76,16 +78,19 @@ ul {
 .navbar-default li {
     border: 1px solid transparent;
 }
-input.menu  {
+
+input.menu {
     width: 15%;
     font-size: 1.8rem;
     margin-right: 20px;
     padding: 10px;
-    margin-top: 30px; 
+    margin-top: 30px;
     border: 1px solid transparent;
     text-align: center;
     outline: none;
     background-color: transparent;
+    color: transparent;
+    text-shadow: 0 0 0 black;
 }
 
 .lineDecor {
@@ -186,9 +191,8 @@ input.menu  {
     outline: none;
 }
 
-.contactForm button:hover, 
-.social div div:hover {
-    box-shadow:  0 0 10px rgba(0,0,0,0.5) 
+.contactForm button:hover, .social div div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 .social div div {
@@ -261,8 +265,7 @@ input.menu  {
     .navbar-default li:not(:last-of-type) {
         margin-right: 0;
     }
-    .section_block2 div,
-    .section_block2 div:nth-child(2n+1) {
+    .section_block2 div, .section_block2 div:nth-child(2n+1) {
         width: 25%;
     }
     .sectionMenu {
@@ -271,7 +274,7 @@ input.menu  {
         width: 100%;
         margin-top: 20px;
     }
-    input.menu  {
+    input.menu {
         width: 20%;
     }
     .test1, .test2 {
@@ -279,7 +282,6 @@ input.menu  {
         flex-flow: column nowrap;
         width: 100%;
     }
-    
     .flexMenu {
         display: flex;
         max-width: 100%;
@@ -297,11 +299,10 @@ input.menu  {
         background-position-x: -25vw;
         padding: 5vw 8vw 6vw;
     }
-    .section_block2 div,
-    .section_block2 div:nth-child(2n+1) {
+    .section_block2 div, .section_block2 div:nth-child(2n+1) {
         width: 50%;
     }
-    input.menu  {
+    input.menu {
         width: 35%;
     }
 }
@@ -323,11 +324,10 @@ input.menu  {
     .navbar-default li:not(:last-of-type) {
         margin-right: 0;
     }
-    .section_block2 div,
-    .section_block2 div:nth-child(2n+1) {
+    .section_block2 div, .section_block2 div:nth-child(2n+1) {
         width: 100%;
     }
-    input.menu  {
+    input.menu {
         width: 100%;
     }
     .footer {
@@ -339,7 +339,6 @@ input.menu  {
         padding: 5vw 8vw 6vw;
     }
 }
-
 
 @keyframes up {
     0% {
@@ -360,7 +359,6 @@ input.menu  {
 .up {
     animation: up 1s ease forwards;
 }
-
 
 .backTotop {
     position: fixed;
